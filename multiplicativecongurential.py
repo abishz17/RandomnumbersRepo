@@ -15,7 +15,7 @@ class MultiplicativeCongurential:
 
 seed = time.time()
 a = 16807
-m = 2147483647
+m = 2147483647 #these are random values
 
 randomobject= MultiplicativeCongurential(seed,a,m)
 

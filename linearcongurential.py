@@ -12,7 +12,7 @@ class LinearCongurential:
     def generateBetween0and1(self):
         return self.generate()/self.m # DIVIDING BY M TO GET VALUES BETWEEN O AND 1
 
-seed = time.time()
+seed = time.time() # system time as seed to randomize the seed value
 
 a = 1664525 # The multiplier a should be chosen such that (a-1) is divisible by all prime factors of m. If m is a multiple of 4, (a-1) should also be divisible by 4.
 c = 1013904223 # The increment c should be relatively prime to m, meaning they share no divisors other than 1.
